@@ -9,5 +9,16 @@ namespace Collision.Platform.DataAccess
 
         public DbSet<User> Users { get; set; }
 
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
+
+            modelBuilder.Entity<User>(
+                u =>
+                {
+                    u.Property("Id");
+                    u.HasKey("Id");
+                });
+        }
     }
 }

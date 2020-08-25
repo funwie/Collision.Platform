@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  collision.platform.api:
+    image: ${DOCKER_REGISTRY-}collisionplatformapi
+    build:
+      context: .
+      dockerfile: Collision.Platform.API\Dockerfile

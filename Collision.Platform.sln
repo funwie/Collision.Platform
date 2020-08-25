@@ -5,17 +5,19 @@ VisualStudioVersion = 16.0.30309.148
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{508EF880-292F-42C5-B0BA-C7FF5219AEA8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Collision.Platform.API", "Collision.Platform.API\Collision.Platform.API.csproj", "{A425EF6B-953F-4A5A-8C4E-F5DAB14DA262}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Collision.Platform.API", "Collision.Platform.API\Collision.Platform.API.csproj", "{A425EF6B-953F-4A5A-8C4E-F5DAB14DA262}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Collision.Platform.Domain", "Collision.Platform.Domain\Collision.Platform.Domain.csproj", "{31BECA3D-8282-4E42-96F2-EFCC3A346E88}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Collision.Platform.Domain", "Collision.Platform.Domain\Collision.Platform.Domain.csproj", "{31BECA3D-8282-4E42-96F2-EFCC3A346E88}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Collision.Platform.DataAccess", "Collision.Platform.DataAccess\Collision.Platform.DataAccess.csproj", "{2CDAD226-6058-45A9-AE8E-32F7C2BBC0AE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Collision.Platform.DataAccess", "Collision.Platform.DataAccess\Collision.Platform.DataAccess.csproj", "{2CDAD226-6058-45A9-AE8E-32F7C2BBC0AE}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{67C448A7-2620-4D4D-8DE7-A85F5393A370}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Collision.Platform.API.Tests", "Collision.Platform.API.Tests\Collision.Platform.API.Tests.csproj", "{B5AAE1A3-BAEC-41D5-998C-EBF8948D4405}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Collision.Platform.API.Tests", "Collision.Platform.API.Tests\Collision.Platform.API.Tests.csproj", "{B5AAE1A3-BAEC-41D5-998C-EBF8948D4405}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Collision.Platform.Infrastructure", "Collision.Platform.Infrastructure\Collision.Platform.Infrastructure.csproj", "{E4539E4B-1949-4F56-ADF5-746553209577}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Collision.Platform.Infrastructure", "Collision.Platform.Infrastructure\Collision.Platform.Infrastructure.csproj", "{E4539E4B-1949-4F56-ADF5-746553209577}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{C167064A-63CE-4638-8BE2-FFF015E1548F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -43,6 +45,10 @@ Global
 		{E4539E4B-1949-4F56-ADF5-746553209577}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E4539E4B-1949-4F56-ADF5-746553209577}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E4539E4B-1949-4F56-ADF5-746553209577}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C167064A-63CE-4638-8BE2-FFF015E1548F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C167064A-63CE-4638-8BE2-FFF015E1548F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C167064A-63CE-4638-8BE2-FFF015E1548F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C167064A-63CE-4638-8BE2-FFF015E1548F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
