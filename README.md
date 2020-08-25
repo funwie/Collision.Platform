@@ -1,6 +1,16 @@
-#Collision.Platform
+# Collision.Platform Microservices API
 
-This is a quick solution. There are many improvements that can be made to consider this a production ready solution. Some are:
+## Tech Stack
+- ASP.Net core 3.1 and C#
+- EF Core with InMemory Database
+- Docker on Windows for deployment
+- IIS deployment also possible
+- Swagger
+
+
+## Futher Improvements
+
+This is a quick solution. There are many improvements before this can be considered a production ready solution. Some are:
 
 Add Paging, Filtering, Sorting to Search and Get()
 
