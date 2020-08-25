@@ -1,4 +1,4 @@
-# Collision.Platform Microservices API
+# Collision.Platform Registration API
 
 ## Tech Stack
 - ASP.Net core 3.1 and C#
